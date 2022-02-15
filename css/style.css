@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0px auto;
+  height: 100vh;
+}
+
+main {
+  background-image: url("/images/bg-intro-desktop.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 122, 122, 0.95)), to(rgba(255, 122, 122, 0.95)));
+  background-image: url("/images/bg-intro-desktop.png"), linear-gradient(rgba(255, 122, 122, 0.95), rgba(255, 122, 122, 0.95));
+}
+
+main .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.heading--primary {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1%;
+  line-height: 53px;
+}
+
+.heading--secondary {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -4%;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+}
+
+.btn {
+  padding: 25px 40px;
+  background-color: #38cc8c;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom: 5px solid #2ba671 !important;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.btn:active {
+  border-bottom: 0px solid #2ba671 !important;
+}
+
+.form {
+  width: 550px;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.form__title {
+  padding: 20px;
+  background-color: #6055a5;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.form__group {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.form__group small {
+  font-size: 12px;
+  letter-spacing: -3.5%;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.form__group small .highlight {
+  color: #ff7a7a;
+}
+
+.form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+}
+
+.form form input {
+  width: 100%;
+  padding: 20px 30px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+  font-size: 14px;
+  letter-spacing: 2%;
+  font-weight: 600;
+}
+
+.form form input:focus {
+  outline: none !important;
+  border: 1px solid black;
+}
+
+.hero__title {
+  max-width: 500px;
+  margin-bottom: 25px;
+}
+
+.hero__desc {
+  max-width: 550px;
+}
+/*# sourceMappingURL=style.css.map */

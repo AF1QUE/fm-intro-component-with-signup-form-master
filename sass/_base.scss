@@ -1,8 +1,26 @@
+$red: hsl(0, 100%, 74%);
+$green: hsl(154, 59%, 51%);
+$blue: hsl(248, 32%, 49%);
+$darkBlue: hsl(249, 10%, 26%);
+$grayishBlue: hsl(246, 25%, 77%);
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
+.wrapper {
+  width: 1140px;
+  margin: 0px auto;
+  height: 100vh;
+}
 
+main {
+  background-image: url("/images/bg-intro-desktop.png"),
+    linear-gradient(rgba(255, 122, 122, 0.95), hsla(0, 100%, 74%, 0.95));
 
+  .wrapper {
+    @include flex(row, space-between, center);
+  }
+}

@@ -1,0 +1,22 @@
+.btn {
+  padding: 25px 40px;
+  background-color: $green;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+
+  border-bottom: 5px solid darken($color: $green, $amount: 10) !important;
+  outline: none !important;
+
+  cursor: pointer;
+
+  &:active {
+    border-bottom: 0px solid darken($color: $green, $amount: 10) !important;
+  }
+}
