@@ -83,7 +83,7 @@ body {
 @media (min-width: 325px) and (max-width: 767px) {
   .heading--primary {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 36px;
     text-align: center;
   }
 }
