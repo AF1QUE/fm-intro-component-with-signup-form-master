@@ -8,12 +8,18 @@ body {
 .heading {
   font-family: "Poppins", sans-serif;
   color: #fff;
-  
+
   &--primary {
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -1%;
     line-height: 53px;
+
+    @include media(">=phone", "<tablet") {
+      font-size: 30px;
+      line-height: 30px;
+      text-align: center;
+    }
   }
 
   &--secondary {
@@ -28,4 +34,8 @@ body {
   font-weight: 400;
   line-height: 25px;
   color: #fff;
+
+  @include media(">=phone", "<tablet") {
+    text-align: center;
+  }
 }
